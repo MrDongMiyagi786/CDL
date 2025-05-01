@@ -1,0 +1,8 @@
+def compute_area(radius):
+    pi = 3.14
+    area = pi * radius ** 2
+    return area
+
+if __name__ == "__main__":
+    r = 5
+    print("Area is:", compute_area(r))

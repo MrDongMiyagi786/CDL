@@ -1,0 +1,12 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        int number = 42;
+        float pi = 3.14f;
+        char initial = 'J';
+        String message = "Hello, Java!";
+        
+        if (number > 0 && pi != 0.0) {
+            System.out.println(message);
+        }
+    }
+}

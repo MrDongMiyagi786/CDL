@@ -1,0 +1,10 @@
+-- This is a comment
+SELECT name, age FROM users WHERE age >= 18;
+
+INSERT INTO orders (id, amount) VALUES (101, 250.75);
+
+UPDATE products SET price = price * 1.1 WHERE category = 'electronics';
+
+/* Multi-line
+   comment block */
+DELETE FROM sessions WHERE active = 'False';
